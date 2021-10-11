@@ -13,7 +13,11 @@ writing a suduko Solver as a practice for becoming programmer
 7.  call the recursive function to solve the new table.
 8.  if calling recursive function returned true then break the loop.
 9.  if calling recursive function returned false then continue the loop.
-10. now that the program squence arrived here the suduko solved and you must
+10. now that the program sequence arrived here the suduko solved and you must
    return true.
 
-
+## List of functions to implement
+1. a function to print table
+2. a function to find the first empty cell (nice idea: you can create a global variable to mark the empty location to not call a function repeatedly)
+3. a function to find valid digits for an empty cell
+4. a function to solve the suduko recursively
